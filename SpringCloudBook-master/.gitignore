@@ -2,4 +2,4 @@
 target/
 out/
 *.iml
-!.idea/workspace.xml
+*.log
