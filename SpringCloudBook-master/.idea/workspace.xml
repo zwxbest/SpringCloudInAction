@@ -1,10 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="d0f77ecf-4b21-47c1-a3fc-a180151aaac0" name="Default" comment="">
-      <change type="DELETED" beforePath="$PROJECT_DIR$/eureka-server/eureka-server.log" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-    </list>
+    <list default="true" id="d0f77ecf-4b21-47c1-a3fc-a180151aaac0" name="Default" comment="" />
     <ignored path="$PROJECT_DIR$/ribbon-consumer/target/" />
     <ignored path="$PROJECT_DIR$/config-server-eureka-kafka/target/" />
     <ignored path="$PROJECT_DIR$/feign-consumer/target/" />
@@ -534,12 +531,12 @@
       <workItem from="1550223425011" duration="1770000" />
       <workItem from="1550757509334" duration="13923000" />
       <workItem from="1550921932902" duration="7699000" />
-      <workItem from="1550931580405" duration="91000" />
+      <workItem from="1550931580405" duration="125000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="33769000" />
+    <option name="totallyTimeSpent" value="33803000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-11" y="-11" width="1942" height="1056" extended-state="6" />
