@@ -488,3 +488,4 @@ Caused by: java.lang.IllegalStateException: Tomcat connector in failed state
 2019-02-23 21:55:57.259  INFO 23020 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
 2019-02-23 21:56:57.260  INFO 23020 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
 2019-02-23 21:57:57.261  INFO 23020 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-02-23 21:58:57.261  INFO 23020 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
