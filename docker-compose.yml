@@ -1,7 +1,7 @@
 version: "3"
 
 services:
-    eureka:
+    peer1:
         build: ./eureka-server
         image: nizouba/eureka-server1
         ports:
@@ -9,7 +9,7 @@ services:
         environment:
             - TZ=Asia/Shanghai
         command: "--spring.profiles.active=peer1"
-    eureka:
+    peer2:
         build: ./eureka-server
         image: nizouba/eureka-server2
         ports:
@@ -25,7 +25,7 @@ services:
         environment:
             - TZ=Asia/Shanghai
         healthcheck:
-           test: ["CMD", "curl", "-f", "http://eureka:1111"]
+           test: ["CMD", "curl", "-f", "http://peer1:1111"]
            interval: 10s
            timeout: 5s
            retries: 3
