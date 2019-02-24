@@ -13,7 +13,7 @@
 
 ## 分支
 
-本分支对应P48-服务发现与消费
+本分支对应P187-仪表盘
 
 ## 启动 
 
@@ -21,9 +21,9 @@
 
 ## 运行
 
-1. 监视ribbon-consumer的日志
-1. 重复调用http://127.0.0.1:9000/ribbon-consumer
-1. 默认超时为2000ms,ribbon-consumer随机模拟睡眠了0-4000ms
-
+1. 访问http://127.0.0.1:9000/hystrix
+1. 总上面一框中输入http://127.0.0.1:9000/hystrix.stream,一开始会一直loading
+1. 多次访问http://127.0.0.1:9000/ribbon-consumer
+1. 观察dashboard
 
 
