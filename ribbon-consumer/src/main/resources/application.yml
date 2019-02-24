@@ -7,3 +7,6 @@ eureka:
       defaultZone: http://peer1:1111/eureka/,http://peer2:1112/eureka/
 server:
   port: 9000
+turbine:
+  app-config: ribbon-consumer
+  combine-host-port: true

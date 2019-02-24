@@ -13,7 +13,7 @@
 
 ## 分支
 
-本分支对应P187-仪表盘
+本分支对应P192-Turbine集群监控
 
 ## 启动 
 
@@ -22,8 +22,8 @@
 ## 运行
 
 1. 访问http://127.0.0.1:9000/hystrix
-1. 总上面一框中输入http://127.0.0.1:9000/hystrix.stream,一开始会一直loading
+1. 总上面一框中输入http://127.0.0.1:9000/turbine.stream,一开始会一直loading
 1. 多次访问http://127.0.0.1:9000/ribbon-consumer
-1. 观察dashboard
+1. [ ] 一直是loading,这个找原因
 
 
