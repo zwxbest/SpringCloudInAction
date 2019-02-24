@@ -32,7 +32,7 @@
       <module name="rabbitmq-hello" target="1.8" />
       <module name="ribbon-consumer" target="1.8" />
       <module name="spring-boot-hello" target="1.8" />
-      <module name="spring-cloud-in-action" target="1.5" />
+      <module name="spring-cloud-in-action" target="1.8" />
       <module name="stream-consumer" target="1.8" />
       <module name="stream-producer" target="1.8" />
       <module name="trace-1" target="1.8" />
