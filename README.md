@@ -21,8 +21,8 @@
 
 ## 运行
 
-1. `docker　logs -ft <container_id>` 打印两个hello-service服务的日志
 1. http://127.0.0.1:9000/ribbon-consumer  多次调用hello-service方法,查看日志轮循
+1. 关闭其中一个hello-service服务,重复上述操作,发现循环打印hello world和error
 
 
 
