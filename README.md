@@ -1,17 +1,28 @@
 # SpringCloudBook
 
-本工程为《Spring Cloud实战》一书的配套示例代码。如果读者在阅读过程中发现文章内容或示例有任何问题均可以在这里给我提ISSUE。
+本工程为《Spring Cloud实战》一书的配套示例代码。在原代码基础上加入Docker支持，方便快速启动多个服务。
 
-**由于Spring Cloud更新频繁，作者会在博客和公众号中持续更新相关内容**
+不同阶段的代码用分支切换，免去了到处都是注释造成的混乱。
 
-## 博客文章
+## 运行环境
 
-- 作者博客：http://blog.didispace.com
-- Spring Cloud系列博文：http://blog.didispace.com/categories/Spring-Cloud/
-- Spring Boot系列博文：http://bbs.springcloud.com.cn/categories/Spring-Boot/
+* Maven
+* Java
+* Docker
+* Bash（Windows用git bash也行）
 
-## 我的公众号
+## 分支
 
-![输入图片说明](http://git.oschina.net/uploads/images/2017/0105/082219_0315cece_437188.jpeg "在这里输入图片标题")
+本分支对应P48-服务发现与消费
+
+## 启动 
+
+./build.sh
+
+## 运行
+
+1. `docker　logs -ft <container_id>` 打印两个hello-service服务的日志
+1. http://127.0.0.1:9000/ribbon-consumer  多次调用hello-service方法,查看日志轮循
+
 
 
