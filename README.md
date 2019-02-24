@@ -21,8 +21,9 @@
 
 ## 运行
 
-1. http://127.0.0.1:9000/ribbon-consumer  多次调用hello-service方法,查看日志轮循
-1. 关闭其中一个hello-service服务,重复上述操作,发现循环打印hello world和error
+1. 监视ribbon-consumer的日志
+1. 重复调用http://127.0.0.1:9000/ribbon-consumer
+1. 默认超时为2000ms,ribbon-consumer随机模拟睡眠了0-4000ms
 
 
 

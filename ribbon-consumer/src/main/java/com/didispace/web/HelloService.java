@@ -1,6 +1,7 @@
 package com.didispace.web;
 
 import com.netflix.hystrix.contrib.javanica.annotation.HystrixCommand;
+import java.util.Random;
 import org.apache.log4j.Logger;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.ResponseEntity;
@@ -22,12 +23,18 @@ public class HelloService {
     RestTemplate restTemplate;
 
     @HystrixCommand(fallbackMethod = "helloFallback")
-    public String helloService() {
-        return restTemplate.getForEntity("http://hello-service/hello",String.class).getBody();
+    public String helloService() throws Exception{
+        // 测试超时触发断路器
+        int sleepTime = new Random().nextInt(4000);
+        logger.info("sleepTime:" + sleepTime);
+        Thread.sleep(sleepTime);
+        return "hello world";
     }
 
     public String helloFallback() {
         return "error";
     }
+
+
 
 }
