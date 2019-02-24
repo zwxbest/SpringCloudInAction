@@ -15,4 +15,8 @@ services:
             - "8081:8081"
         environment:
             - TZ=Asia/Shanghai
-
+        healthcheck:
+           test: ["CMD", "curl", "-f", "http://eureka:1111"]
+           interval: 10s
+           timeout: 5s
+           retries: 3
