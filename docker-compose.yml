@@ -3,11 +3,20 @@ version: "3"
 services:
     eureka:
         build: ./eureka-server
-        image: nizouba/eureka-server
+        image: nizouba/eureka-server1
         ports:
             - "1111:1111"
         environment:
             - TZ=Asia/Shanghai
+        command: "--spring.profiles.active=peer1"
+    eureka:
+        build: ./eureka-server
+        image: nizouba/eureka-server2
+        ports:
+            - "1112:1112"
+        environment:
+            - TZ=Asia/Shanghai
+        command: "--spring.profiles.active=peer2"
     hello-service:
         build: ./hello-service
         image: nizouba/hello-service
@@ -20,3 +29,4 @@ services:
            interval: 10s
            timeout: 5s
            retries: 3
+
