@@ -1,0 +1,437 @@
+2019-04-10 00:50:06.095  INFO 8052 --- [main] com.nizouba.Application                  : No active profile set, falling back to default profiles: default
+2019-04-10 00:50:06.117  INFO 8052 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f8a9499: startup date [Wed Apr 10 00:50:06 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5db45159
+2019-04-10 00:50:06.997  WARN 8052 --- [main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-04-10 00:50:07.277  INFO 8052 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0a0f5f68-6d85-3adb-8398-396deaed0021
+2019-04-10 00:50:07.289  INFO 8052 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-10 00:50:07.308  INFO 8052 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$60eb2e75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-10 00:50:07.314  INFO 8052 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration$$EnhancerBySpringCGLIB$$a4a306b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-10 00:50:08.036  INFO 8052 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2019-04-10 00:50:08.046  INFO 8052 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2019-04-10 00:50:08.047  INFO 8052 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2019-04-10 00:50:08.197  INFO 8052 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-10 00:50:08.198  INFO 8052 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2081 ms
+2019-04-10 00:50:09.131  INFO 8052 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'metricFilter' to: [/*]
+2019-04-10 00:50:09.133  INFO 8052 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-10 00:50:09.133  INFO 8052 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-10 00:50:09.134  INFO 8052 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-10 00:50:09.134  INFO 8052 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-10 00:50:09.134  INFO 8052 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'webRequestTraceFilter' to: [/*]
+2019-04-10 00:50:09.134  INFO 8052 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'servletContainer' to urls: [/eureka/*]
+2019-04-10 00:50:09.134  INFO 8052 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-04-10 00:50:09.135  INFO 8052 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-10 00:50:09.212  INFO 8052 --- [localhost-startStop-1] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-04-10 00:50:09.296  INFO 8052 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-04-10 00:50:09.298  INFO 8052 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-04-10 00:50:09.389  INFO 8052 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-04-10 00:50:09.390  INFO 8052 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-04-10 00:50:10.429  INFO 8052 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-04-10 00:50:10.479  INFO 8052 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-04-10 00:50:10.484  INFO 8052 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1554828610484 with initial instances count: 0
+2019-04-10 00:50:10.539  INFO 8052 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-04-10 00:50:10.542  WARN 8052 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-04-10 00:50:10.555  INFO 8052 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-04-10 00:50:10.556  INFO 8052 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-04-10 00:50:10.830  INFO 8052 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f8a9499: startup date [Wed Apr 10 00:50:06 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5db45159
+2019-04-10 00:50:10.914  INFO 8052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-10 00:50:10.915  INFO 8052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-10 00:50:10.917  INFO 8052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-10 00:50:10.918  INFO 8052 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-10 00:50:10.954  INFO 8052 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-10 00:50:10.955  INFO 8052 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-10 00:50:10.998  INFO 8052 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-10 00:50:11.509  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2019-04-10 00:50:11.510  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2019-04-10 00:50:11.511  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-04-10 00:50:11.512  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:50:11.514  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-04-10 00:50:11.515  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:50:11.516  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2019-04-10 00:50:11.516  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-04-10 00:50:11.517  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-04-10 00:50:11.518  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:50:11.518  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2019-04-10 00:50:11.519  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:50:11.520  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-04-10 00:50:11.521  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:50:11.521  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:50:11.522  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:50:11.523  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:50:11.524  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:50:11.525  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2019-04-10 00:50:11.525  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:50:11.526  INFO 8052 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:50:11.607  INFO 8052 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f8a9499: startup date [Wed Apr 10 00:50:06 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5db45159] and template loader path [classpath:/templates/]
+2019-04-10 00:50:11.608  INFO 8052 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-04-10 00:50:11.671  WARN 8052 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-10 00:50:11.671  INFO 8052 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-10 00:50:11.676  WARN 8052 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-10 00:50:11.676  INFO 8052 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-10 00:50:11.935  INFO 8052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-04-10 00:50:11.945  INFO 8052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-04-10 00:50:11.946  INFO 8052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-04-10 00:50:11.948  INFO 8052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-04-10 00:50:11.949  INFO 8052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2019-04-10 00:50:11.950  INFO 8052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2019-04-10 00:50:11.953  INFO 8052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-04-10 00:50:11.966  INFO 8052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2019-04-10 00:50:11.978  INFO 8052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-04-10 00:50:11.984  INFO 8052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=7f8a9499,type=ConfigurationPropertiesRebinder]
+2019-04-10 00:50:11.993  INFO 8052 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2019-04-10 00:50:12.268  INFO 8052 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2019-04-10 00:50:12.269  INFO 8052 --- [main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application eureka-server with eureka with status UP
+2019-04-10 00:50:12.269  INFO 8052 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-04-10 00:50:12.269  INFO 8052 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-04-10 00:50:12.270  INFO 8052 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-04-10 00:50:12.295  INFO 8052 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-04-10 00:50:12.296  INFO 8052 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-04-10 00:50:12.296  INFO 8052 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-04-10 00:50:12.296  INFO 8052 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-04-10 00:50:12.296  INFO 8052 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-04-10 00:50:12.310  INFO 8052 --- [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-04-10 00:50:12.403  INFO 8052 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1111 (http)
+2019-04-10 00:50:12.404  INFO 8052 --- [main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 1111
+2019-04-10 00:50:12.408  INFO 8052 --- [main] com.nizouba.Application                  : Started Application in 10.237 seconds (JVM running for 11.242)
+2019-04-10 00:51:24.288  INFO 9648 --- [main] com.nizouba.Application                  : No active profile set, falling back to default profiles: default
+2019-04-10 00:51:24.303  INFO 9648 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d43661b: startup date [Wed Apr 10 00:51:24 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5db45159
+2019-04-10 00:51:25.171  WARN 9648 --- [main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-04-10 00:51:25.411  INFO 9648 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0a0f5f68-6d85-3adb-8398-396deaed0021
+2019-04-10 00:51:25.422  INFO 9648 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-10 00:51:25.443  INFO 9648 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$60eb2e75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-10 00:51:25.449  INFO 9648 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration$$EnhancerBySpringCGLIB$$a4a306b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-10 00:51:26.104  INFO 9648 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2019-04-10 00:51:26.117  INFO 9648 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2019-04-10 00:51:26.118  INFO 9648 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2019-04-10 00:51:26.249  INFO 9648 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-10 00:51:26.250  INFO 9648 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 1947 ms
+2019-04-10 00:51:27.078  INFO 9648 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'metricFilter' to: [/*]
+2019-04-10 00:51:27.079  INFO 9648 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-10 00:51:27.079  INFO 9648 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-10 00:51:27.079  INFO 9648 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-10 00:51:27.079  INFO 9648 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-10 00:51:27.079  INFO 9648 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'webRequestTraceFilter' to: [/*]
+2019-04-10 00:51:27.080  INFO 9648 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'servletContainer' to urls: [/eureka/*]
+2019-04-10 00:51:27.080  INFO 9648 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-04-10 00:51:27.080  INFO 9648 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-10 00:51:27.156  INFO 9648 --- [localhost-startStop-1] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-04-10 00:51:27.239  INFO 9648 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-04-10 00:51:27.241  INFO 9648 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-04-10 00:51:27.330  INFO 9648 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-04-10 00:51:27.330  INFO 9648 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-04-10 00:51:28.370  INFO 9648 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-04-10 00:51:28.429  INFO 9648 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-04-10 00:51:28.435  INFO 9648 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1554828688435 with initial instances count: 0
+2019-04-10 00:51:28.498  INFO 9648 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-04-10 00:51:28.501  WARN 9648 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-04-10 00:51:28.516  INFO 9648 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-04-10 00:51:28.517  INFO 9648 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-04-10 00:51:28.824  INFO 9648 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d43661b: startup date [Wed Apr 10 00:51:24 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5db45159
+2019-04-10 00:51:28.919  INFO 9648 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-10 00:51:28.921  INFO 9648 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-10 00:51:28.923  INFO 9648 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-10 00:51:28.924  INFO 9648 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-10 00:51:28.964  INFO 9648 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-10 00:51:28.964  INFO 9648 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-10 00:51:29.013  INFO 9648 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-10 00:51:29.575  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2019-04-10 00:51:29.576  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2019-04-10 00:51:29.577  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-04-10 00:51:29.577  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:51:29.580  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-04-10 00:51:29.580  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:51:29.581  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2019-04-10 00:51:29.582  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-04-10 00:51:29.583  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-04-10 00:51:29.584  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:51:29.585  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2019-04-10 00:51:29.586  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:51:29.587  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-04-10 00:51:29.588  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:51:29.589  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:51:29.590  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:51:29.591  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:51:29.593  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:51:29.594  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2019-04-10 00:51:29.595  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:51:29.596  INFO 9648 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 00:51:29.684  INFO 9648 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@5d43661b: startup date [Wed Apr 10 00:51:24 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5db45159] and template loader path [classpath:/templates/]
+2019-04-10 00:51:29.685  INFO 9648 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-04-10 00:51:29.758  WARN 9648 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-10 00:51:29.758  INFO 9648 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-10 00:51:29.762  WARN 9648 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-10 00:51:29.763  INFO 9648 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-10 00:51:29.882  INFO 9648 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-04-10 00:51:29.894  INFO 9648 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-04-10 00:51:29.896  INFO 9648 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-04-10 00:51:29.900  INFO 9648 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-04-10 00:51:29.901  INFO 9648 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2019-04-10 00:51:29.903  INFO 9648 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2019-04-10 00:51:29.908  INFO 9648 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-04-10 00:51:30.113  INFO 9648 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2019-04-10 00:51:30.145  INFO 9648 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-04-10 00:51:30.158  INFO 9648 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=5d43661b,type=ConfigurationPropertiesRebinder]
+2019-04-10 00:51:30.175  INFO 9648 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2019-04-10 00:51:30.569  INFO 9648 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2019-04-10 00:51:30.570  INFO 9648 --- [main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application eureka-server with eureka with status UP
+2019-04-10 00:51:30.570  INFO 9648 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-04-10 00:51:30.571  INFO 9648 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-04-10 00:51:30.572  INFO 9648 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-04-10 00:51:30.594  INFO 9648 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-04-10 00:51:30.596  INFO 9648 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-04-10 00:51:30.596  INFO 9648 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-04-10 00:51:30.596  INFO 9648 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-04-10 00:51:30.597  INFO 9648 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-04-10 00:51:30.611  INFO 9648 --- [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-04-10 00:51:30.707  INFO 9648 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1111 (http)
+2019-04-10 00:51:30.707  INFO 9648 --- [main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 1111
+2019-04-10 00:51:30.711  INFO 9648 --- [main] com.nizouba.Application                  : Started Application in 10.237 seconds (JVM running for 11.27)
+2019-04-10 00:51:51.116  INFO 9648 --- [http-nio-1111-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-10 00:51:51.116  INFO 9648 --- [http-nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-10 00:51:51.146  INFO 9648 --- [http-nio-1111-exec-1] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 30 ms
+2019-04-10 00:51:51.781  INFO 9648 --- [http-nio-1111-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 00:52:29.471  INFO 9648 --- [http-nio-1111-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 00:52:30.598  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 00:53:30.599  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 00:54:30.599  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 00:55:30.600  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 00:56:30.600  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 00:57:19.334  INFO 9648 --- [http-nio-1111-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 00:57:30.601  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 00:58:22.946  INFO 9648 --- [http-nio-1111-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 00:58:30.601  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 00:59:30.601  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:00:30.602  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:01:28.502  WARN 9648 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-04-10 01:01:30.602  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:02:30.602  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:02:35.175  INFO 9648 --- [http-nio-1111-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:02:36.885  INFO 9648 --- [http-nio-1111-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:03:30.603  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:04:30.656  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2019-04-10 01:05:30.605  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:06:28.527  INFO 9648 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2019-04-10 01:06:30.605  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:07:08.982  INFO 9648 --- [http-nio-1111-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:07:10.096  INFO 9648 --- [http-nio-1111-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:07:30.605  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:08:30.606  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:09:30.607  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:10:30.607  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:11:28.511  WARN 9648 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-04-10 01:11:30.608  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2019-04-10 01:11:32.645  INFO 9648 --- [http-nio-1111-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:11:34.690  INFO 9648 --- [http-nio-1111-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:12:30.609  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:13:30.609  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:14:30.610  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:14:55.914  INFO 9648 --- [http-nio-1111-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:15:00.507  INFO 9648 --- [http-nio-1111-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:15:30.610  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:16:30.622  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2019-04-10 01:16:31.820  INFO 9648 --- [http-nio-1111-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:16:37.055  INFO 9648 --- [http-nio-1111-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:17:30.622  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:18:30.623  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:18:59.290  INFO 9648 --- [http-nio-1111-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:19:04.311  INFO 9648 --- [http-nio-1111-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:19:30.624  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:20:30.624  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:20:40.629  INFO 9648 --- [http-nio-1111-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:20:44.624  INFO 9648 --- [http-nio-1111-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:21:28.515  WARN 9648 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-04-10 01:21:28.539  INFO 9648 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2019-04-10 01:21:30.626  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 2ms
+2019-04-10 01:21:42.917  INFO 9648 --- [http-nio-1111-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:21:44.152  INFO 9648 --- [http-nio-1111-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:22:30.627  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:23:30.634  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2019-04-10 01:24:30.634  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:25:30.635  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:26:05.962  INFO 9648 --- [http-nio-1111-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:26:11.875  INFO 9648 --- [http-nio-1111-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:26:30.635  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:27:30.636  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:27:35.907  INFO 9648 --- [http-nio-1111-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:28:30.637  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:29:30.637  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:30:04.886  INFO 9648 --- [http-nio-1111-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:30:30.638  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:31:17.891  INFO 9648 --- [http-nio-1111-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:31:22.739  INFO 9648 --- [http-nio-1111-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:31:28.516  WARN 9648 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-04-10 01:31:30.639  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:32:30.639  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:33:30.640  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:34:30.647  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 7ms
+2019-04-10 01:35:30.647  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:36:01.904  INFO 9648 --- [http-nio-1111-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:36:05.991  INFO 9648 --- [http-nio-1111-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:36:28.540  INFO 9648 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2019-04-10 01:36:30.648  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:37:30.648  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:38:30.649  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:39:06.313  INFO 9648 --- [http-nio-1111-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:39:09.229  INFO 9648 --- [http-nio-1111-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:39:30.649  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:40:30.649  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:41:28.517  WARN 9648 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-04-10 01:41:30.650  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:42:23.970  INFO 9648 --- [http-nio-1111-exec-6] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:42:30.650  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:42:35.577  INFO 9648 --- [http-nio-1111-exec-10] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:43:30.650  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:44:30.651  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:45:30.652  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:46:23.751  INFO 9648 --- [http-nio-1111-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:46:30.653  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:47:30.653  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:48:28.770  INFO 9648 --- [http-nio-1111-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:48:30.654  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:48:32.139  INFO 9648 --- [http-nio-1111-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:49:30.654  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:50:02.339  INFO 9648 --- [http-nio-1111-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:50:06.962  INFO 9648 --- [http-nio-1111-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:50:30.654  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:51:28.519  WARN 9648 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-04-10 01:51:28.540  INFO 9648 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2019-04-10 01:51:30.654  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:52:30.655  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:53:30.656  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2019-04-10 01:54:30.656  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:55:30.656  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 01:56:30.675  INFO 9648 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 19ms
+2019-04-10 01:58:42.885  INFO 9224 --- [main] com.nizouba.Application                  : No active profile set, falling back to default profiles: default
+2019-04-10 01:58:42.899  INFO 9224 --- [main] ationConfigEmbeddedWebApplicationContext : Refreshing org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f8a9499: startup date [Wed Apr 10 01:58:42 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5db45159
+2019-04-10 01:58:43.830  WARN 9224 --- [main] o.s.c.a.ConfigurationClassPostProcessor  : Cannot enhance @Configuration bean definition 'refreshScope' since its singleton instance has been created too early. The typical cause is a non-static @Bean method with a BeanDefinitionRegistryPostProcessor return type: Consider declaring such methods as 'static'.
+2019-04-10 01:58:44.081  INFO 9224 --- [main] o.s.cloud.context.scope.GenericScope     : BeanFactory id=0a0f5f68-6d85-3adb-8398-396deaed0021
+2019-04-10 01:58:44.094  INFO 9224 --- [main] f.a.AutowiredAnnotationBeanPostProcessor : JSR-330 'javax.inject.Inject' annotation found and supported for autowiring
+2019-04-10 01:58:44.115  INFO 9224 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.ConfigurationPropertiesRebinderAutoConfiguration$$EnhancerBySpringCGLIB$$60eb2e75] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-10 01:58:44.122  INFO 9224 --- [main] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration' of type [class org.springframework.cloud.autoconfigure.RefreshEndpointAutoConfiguration$$EnhancerBySpringCGLIB$$a4a306b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2019-04-10 01:58:44.792  INFO 9224 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat initialized with port(s): 1111 (http)
+2019-04-10 01:58:44.805  INFO 9224 --- [main] o.apache.catalina.core.StandardService   : Starting service Tomcat
+2019-04-10 01:58:44.806  INFO 9224 --- [main] org.apache.catalina.core.StandardEngine  : Starting Servlet Engine: Apache Tomcat/8.0.36
+2019-04-10 01:58:44.936  INFO 9224 --- [localhost-startStop-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring embedded WebApplicationContext
+2019-04-10 01:58:44.937  INFO 9224 --- [localhost-startStop-1] o.s.web.context.ContextLoader            : Root WebApplicationContext: initialization completed in 2038 ms
+2019-04-10 01:58:45.994  INFO 9224 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'metricFilter' to: [/*]
+2019-04-10 01:58:45.995  INFO 9224 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'characterEncodingFilter' to: [/*]
+2019-04-10 01:58:45.996  INFO 9224 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'hiddenHttpMethodFilter' to: [/*]
+2019-04-10 01:58:45.996  INFO 9224 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'httpPutFormContentFilter' to: [/*]
+2019-04-10 01:58:45.996  INFO 9224 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'requestContextFilter' to: [/*]
+2019-04-10 01:58:45.996  INFO 9224 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'webRequestTraceFilter' to: [/*]
+2019-04-10 01:58:45.997  INFO 9224 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'servletContainer' to urls: [/eureka/*]
+2019-04-10 01:58:45.997  INFO 9224 --- [localhost-startStop-1] o.s.b.c.embedded.FilterRegistrationBean  : Mapping filter: 'applicationContextIdFilter' to: [/*]
+2019-04-10 01:58:45.997  INFO 9224 --- [localhost-startStop-1] o.s.b.c.e.ServletRegistrationBean        : Mapping servlet: 'dispatcherServlet' to [/]
+2019-04-10 01:58:46.077  INFO 9224 --- [localhost-startStop-1] c.s.j.s.i.a.WebApplicationImpl           : Initiating Jersey application, version 'Jersey: 1.19.1 03/11/2016 02:08 PM'
+2019-04-10 01:58:46.194  INFO 9224 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON encoding codec LegacyJacksonJson
+2019-04-10 01:58:46.196  INFO 9224 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using JSON decoding codec LegacyJacksonJson
+2019-04-10 01:58:46.296  INFO 9224 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML encoding codec XStreamXml
+2019-04-10 01:58:46.297  INFO 9224 --- [localhost-startStop-1] c.n.d.provider.DiscoveryJerseyProvider   : Using XML decoding codec XStreamXml
+2019-04-10 01:58:47.344  INFO 9224 --- [main] o.s.c.n.eureka.InstanceInfoFactory       : Setting initial instance status as: STARTING
+2019-04-10 01:58:47.400  INFO 9224 --- [main] com.netflix.discovery.DiscoveryClient    : Client configured to neither register nor query for data.
+2019-04-10 01:58:47.406  INFO 9224 --- [main] com.netflix.discovery.DiscoveryClient    : Discovery Client initialized at timestamp 1554832727406 with initial instances count: 0
+2019-04-10 01:58:47.462  INFO 9224 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initializing ...
+2019-04-10 01:58:47.465  WARN 9224 --- [main] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-04-10 01:58:47.479  INFO 9224 --- [main] c.n.e.registry.AbstractInstanceRegistry  : Finished initializing remote region registries. All known remote regions: []
+2019-04-10 01:58:47.480  INFO 9224 --- [main] c.n.eureka.DefaultEurekaServerContext    : Initialized
+2019-04-10 01:58:47.727  INFO 9224 --- [main] s.w.s.m.m.a.RequestMappingHandlerAdapter : Looking for @ControllerAdvice: org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f8a9499: startup date [Wed Apr 10 01:58:42 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5db45159
+2019-04-10 01:58:47.816  INFO 9224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.status(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-10 01:58:47.818  INFO 9224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/lastn],methods=[GET]}" onto public java.lang.String org.springframework.cloud.netflix.eureka.server.EurekaController.lastn(javax.servlet.http.HttpServletRequest,java.util.Map<java.lang.String, java.lang.Object>)
+2019-04-10 01:58:47.820  INFO 9224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error]}" onto public org.springframework.http.ResponseEntity<java.util.Map<java.lang.String, java.lang.Object>> org.springframework.boot.autoconfigure.web.BasicErrorController.error(javax.servlet.http.HttpServletRequest)
+2019-04-10 01:58:47.820  INFO 9224 --- [main] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped "{[/error],produces=[text/html]}" onto public org.springframework.web.servlet.ModelAndView org.springframework.boot.autoconfigure.web.BasicErrorController.errorHtml(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse)
+2019-04-10 01:58:47.857  INFO 9224 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/webjars/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-10 01:58:47.858  INFO 9224 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-10 01:58:47.903  INFO 9224 --- [main] o.s.w.s.handler.SimpleUrlHandlerMapping  : Mapped URL path [/**/favicon.ico] onto handler of type [class org.springframework.web.servlet.resource.ResourceHttpRequestHandler]
+2019-04-10 01:58:48.502  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.value(java.util.Map<java.lang.String, java.lang.String>)
+2019-04-10 01:58:48.503  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/reset],methods=[POST]}" onto public java.util.Map<java.lang.String, java.lang.Object> org.springframework.cloud.context.environment.EnvironmentManagerMvcEndpoint.reset()
+2019-04-10 01:58:48.504  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EnvironmentMvcEndpoint.value(java.lang.String)
+2019-04-10 01:58:48.504  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/env || /env.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 01:58:48.507  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics/{name:.*}],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.MetricsMvcEndpoint.value(java.lang.String)
+2019-04-10 01:58:48.507  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/metrics || /metrics.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 01:58:48.509  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/health || /health.json],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.HealthMvcEndpoint.invoke(java.security.Principal)
+2019-04-10 01:58:48.510  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/refresh || /refresh.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-04-10 01:58:48.511  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/resume || /resume.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-04-10 01:58:48.511  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/configprops || /configprops.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 01:58:48.512  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/logfile || /logfile.json],methods=[GET || HEAD]}" onto public void org.springframework.boot.actuate.endpoint.mvc.LogFileMvcEndpoint.invoke(javax.servlet.http.HttpServletRequest,javax.servlet.http.HttpServletResponse) throws javax.servlet.ServletException,java.io.IOException
+2019-04-10 01:58:48.513  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/info || /info.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 01:58:48.514  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/pause || /pause.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.endpoint.GenericPostableMvcEndpoint.invoke()
+2019-04-10 01:58:48.515  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/mappings || /mappings.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 01:58:48.516  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/beans || /beans.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 01:58:48.517  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/features || /features.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 01:58:48.518  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/trace || /trace.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 01:58:48.519  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/archaius || /archaius.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 01:58:48.520  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/restart || /restart.json],methods=[POST]}" onto public java.lang.Object org.springframework.cloud.context.restart.RestartMvcEndpoint.invoke()
+2019-04-10 01:58:48.520  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/autoconfig || /autoconfig.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 01:58:48.521  INFO 9224 --- [main] o.s.b.a.e.mvc.EndpointHandlerMapping     : Mapped "{[/dump || /dump.json],methods=[GET],produces=[application/json]}" onto public java.lang.Object org.springframework.boot.actuate.endpoint.mvc.EndpointMvcAdapter.invoke()
+2019-04-10 01:58:48.607  INFO 9224 --- [main] o.s.ui.freemarker.SpringTemplateLoader   : SpringTemplateLoader for FreeMarker: using resource loader [org.springframework.boot.context.embedded.AnnotationConfigEmbeddedWebApplicationContext@7f8a9499: startup date [Wed Apr 10 01:58:42 CST 2019]; parent: org.springframework.context.annotation.AnnotationConfigApplicationContext@5db45159] and template loader path [classpath:/templates/]
+2019-04-10 01:58:48.608  INFO 9224 --- [main] o.s.w.s.v.f.FreeMarkerConfigurer         : ClassTemplateLoader for Spring macros added to FreeMarker configuration
+2019-04-10 01:58:48.676  WARN 9224 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-10 01:58:48.677  INFO 9224 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-10 01:58:48.683  WARN 9224 --- [main] c.n.c.sources.URLConfigurationSource     : No URLs will be polled as dynamic configuration sources.
+2019-04-10 01:58:48.683  INFO 9224 --- [main] c.n.c.sources.URLConfigurationSource     : To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-04-10 01:58:48.919  INFO 9224 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Registering beans for JMX exposure on startup
+2019-04-10 01:58:48.929  INFO 9224 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshScope' has been autodetected for JMX exposure
+2019-04-10 01:58:48.930  INFO 9224 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'environmentManager' has been autodetected for JMX exposure
+2019-04-10 01:58:48.932  INFO 9224 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'configurationPropertiesRebinder' has been autodetected for JMX exposure
+2019-04-10 01:58:48.933  INFO 9224 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'refreshEndpoint' has been autodetected for JMX exposure
+2019-04-10 01:58:48.934  INFO 9224 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Bean with name 'restartEndpoint' has been autodetected for JMX exposure
+2019-04-10 01:58:48.938  INFO 9224 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'environmentManager': registering with JMX server as MBean [org.springframework.cloud.context.environment:name=environmentManager,type=EnvironmentManager]
+2019-04-10 01:58:48.951  INFO 9224 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'restartEndpoint': registering with JMX server as MBean [org.springframework.cloud.context.restart:name=restartEndpoint,type=RestartEndpoint]
+2019-04-10 01:58:48.964  INFO 9224 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshScope': registering with JMX server as MBean [org.springframework.cloud.context.scope.refresh:name=refreshScope,type=RefreshScope]
+2019-04-10 01:58:48.971  INFO 9224 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'configurationPropertiesRebinder': registering with JMX server as MBean [org.springframework.cloud.context.properties:name=configurationPropertiesRebinder,context=7f8a9499,type=ConfigurationPropertiesRebinder]
+2019-04-10 01:58:48.978  INFO 9224 --- [main] o.s.j.e.a.AnnotationMBeanExporter        : Located managed bean 'refreshEndpoint': registering with JMX server as MBean [org.springframework.cloud.endpoint:name=refreshEndpoint,type=RefreshEndpoint]
+2019-04-10 01:58:49.283  INFO 9224 --- [main] o.s.c.support.DefaultLifecycleProcessor  : Starting beans in phase 0
+2019-04-10 01:58:49.285  INFO 9224 --- [main] c.n.e.EurekaDiscoveryClientConfiguration : Registering application eureka-server with eureka with status UP
+2019-04-10 01:58:49.285  INFO 9224 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Setting the eureka configuration..
+2019-04-10 01:58:49.285  INFO 9224 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka data center value eureka.datacenter is not set, defaulting to default
+2019-04-10 01:58:49.286  INFO 9224 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Eureka environment value eureka.environment is not set, defaulting to test
+2019-04-10 01:58:49.311  INFO 9224 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : isAws returned false
+2019-04-10 01:58:49.312  INFO 9224 --- [Thread-10] o.s.c.n.e.server.EurekaServerBootstrap   : Initialized server context
+2019-04-10 01:58:49.313  INFO 9224 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Got 1 instances from neighboring DS node
+2019-04-10 01:58:49.313  INFO 9224 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Renew threshold is: 1
+2019-04-10 01:58:49.313  INFO 9224 --- [Thread-10] c.n.e.r.PeerAwareInstanceRegistryImpl    : Changing status to UP
+2019-04-10 01:58:49.335  INFO 9224 --- [Thread-10] e.s.EurekaServerInitializerConfiguration : Started Eureka Server
+2019-04-10 01:58:49.495  INFO 9224 --- [main] s.b.c.e.t.TomcatEmbeddedServletContainer : Tomcat started on port(s): 1111 (http)
+2019-04-10 01:58:49.496  INFO 9224 --- [main] c.n.e.EurekaDiscoveryClientConfiguration : Updating port to 1111
+2019-04-10 01:58:49.500  INFO 9224 --- [main] com.nizouba.Application                  : Started Application in 10.337 seconds (JVM running for 11.37)
+2019-04-10 01:59:03.005  INFO 9224 --- [http-nio-1111-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-04-10 01:59:03.006  INFO 9224 --- [http-nio-1111-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization started
+2019-04-10 01:59:03.024  INFO 9224 --- [http-nio-1111-exec-2] o.s.web.servlet.DispatcherServlet        : FrameworkServlet 'dispatcherServlet': initialization completed in 18 ms
+2019-04-10 01:59:03.060  WARN 9224 --- [http-nio-1111-exec-1] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: HELLO-SERVICE - Y400-ZWX.mshome.net:hello-service:8081
+2019-04-10 01:59:03.061  WARN 9224 --- [http-nio-1111-exec-1] c.n.eureka.resources.InstanceResource    : Not Found (Renew): HELLO-SERVICE - Y400-ZWX.mshome.net:hello-service:8081
+2019-04-10 01:59:03.254  INFO 9224 --- [http-nio-1111-exec-3] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:59:05.015  INFO 9224 --- [http-nio-1111-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 01:59:05.714  WARN 9224 --- [http-nio-1111-exec-5] c.n.e.registry.AbstractInstanceRegistry  : DS: Registry: lease doesn't exist, registering resource: FEIGN-CONSUMER - Y400-ZWX.mshome.net:feign-consumer:9001
+2019-04-10 01:59:05.714  WARN 9224 --- [http-nio-1111-exec-5] c.n.eureka.resources.InstanceResource    : Not Found (Renew): FEIGN-CONSUMER - Y400-ZWX.mshome.net:feign-consumer:9001
+2019-04-10 01:59:05.823  INFO 9224 --- [http-nio-1111-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:59:07.742  INFO 9224 --- [http-nio-1111-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 01:59:49.317  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 02:00:49.318  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 02:01:49.318  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 02:02:49.319  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 1ms
+2019-04-10 02:03:49.319  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 02:04:46.724  INFO 9224 --- [http-nio-1111-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 02:04:49.319  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 02:04:49.457  INFO 9224 --- [http-nio-1111-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 02:05:49.320  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 02:06:49.321  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 02:07:32.439  INFO 9224 --- [http-nio-1111-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 02:07:49.322  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 02:08:47.467  WARN 9224 --- [Eureka-PeerNodesUpdater] c.n.eureka.cluster.PeerEurekaNodes       : The replica size seems to be empty. Check the route 53 DNS Registry
+2019-04-10 02:08:49.322  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 02:09:49.323  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 02:10:15.453  INFO 9224 --- [http-nio-1111-exec-9] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 02:10:19.641  INFO 9224 --- [http-nio-1111-exec-4] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 02:10:49.324  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 02:11:49.327  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 3ms
+2019-04-10 02:12:49.328  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 02:13:23.240  INFO 9224 --- [http-nio-1111-exec-8] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 02:13:25.683  INFO 9224 --- [http-nio-1111-exec-1] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 02:13:47.480  INFO 9224 --- [ReplicaAwareInstanceRegistry - RenewalThresholdUpdater] c.n.e.r.PeerAwareInstanceRegistryImpl    : Current renewal threshold is : 5
+2019-04-10 02:13:49.328  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 02:14:49.329  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 02:15:10.693  INFO 9224 --- [http-nio-1111-exec-7] c.n.e.registry.AbstractInstanceRegistry  : Registered instance FEIGN-CONSUMER/Y400-ZWX.mshome.net:feign-consumer:9001 with status UP (replication=false)
+2019-04-10 02:15:13.041  INFO 9224 --- [http-nio-1111-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 02:15:49.339  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 11ms
+2019-04-10 02:15:49.891  INFO 9224 --- [http-nio-1111-exec-5] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 02:16:49.340  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms
+2019-04-10 02:16:58.715  INFO 9224 --- [http-nio-1111-exec-2] c.n.e.registry.AbstractInstanceRegistry  : Registered instance HELLO-SERVICE/Y400-ZWX.mshome.net:hello-service:8081 with status UP (replication=false)
+2019-04-10 02:17:49.340  INFO 9224 --- [Eureka-EvictionTimer] c.n.e.registry.AbstractInstanceRegistry  : Running the evict task with compensationTime 0ms

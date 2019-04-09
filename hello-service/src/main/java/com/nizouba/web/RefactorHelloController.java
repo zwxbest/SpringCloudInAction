@@ -2,10 +2,11 @@ package com.nizouba.web;
 
 import com.didispace.dto.User;
 import com.didispace.service.HelloService;
-import org.springframework.web.bind.annotation.RequestBody;
-import org.springframework.web.bind.annotation.RequestHeader;
-import org.springframework.web.bind.annotation.RequestParam;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.http.MediaType;
+import org.springframework.web.bind.annotation.*;
+
+import javax.validation.Valid;
+import java.time.LocalDateTime;
 
 @RestController
 public class RefactorHelloController implements HelloService {
@@ -23,6 +24,12 @@ public class RefactorHelloController implements HelloService {
 	@Override
 	public String hello(@RequestBody User user) {
 		return "Hello "+ user.getName() + ", " + user.getAge();
+	}
+
+	@Override
+	public String helloUser(@Valid @RequestBody User user) {
+		System.out.println("user is "+user);
+		return "aaaa"+user.toString();
 	}
 
 }

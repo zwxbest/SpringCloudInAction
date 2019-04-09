@@ -1,10 +1,13 @@
 package com.didispace.dto;
 
+import javax.validation.constraints.NotNull;
+
 /**
  * Created by Administrator on 2016/9/16.
  */
 public class User {
 
+    @NotNull(message = "不能为空")
     private String name;
     private Integer age;
 
@@ -16,6 +19,7 @@ public class User {
         this.age = age;
     }
 
+    @NotNull(message = "不能为空")
     public String getName() {
         return name;
     }
